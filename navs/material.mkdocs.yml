@@ -1,0 +1,5 @@
+site_name: material
+docs_dir: ../partials/material
+nav:
+  - "index.md"
+  - "admonition": "admonition.md"

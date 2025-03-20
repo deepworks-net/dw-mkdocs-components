@@ -1,11 +1,11 @@
 site_name: DeepWork MkDocs Material Components
 site_description: DeepWork MkDocs Material Components - Covers all the components and how to utilize them
 site_author: Deepworks
-copyright: Deepworks 2023
+copyright: Deepworks 2023-2025
 docs_dir: docs
 site_dir: site
 extra:
-    version: 0.1.0
+    version: 0.2.0
 plugins:
   - search
   - simple:
@@ -27,11 +27,8 @@ theme:
     features:
         - navigation.instant
         - navigation.tracking
-        #- navigation.tabs
-        #- navigation.tabs.sticky
         - navigation.indexes
         - navigation.top
-        #- toc.integrate
         - content.tabs
         - content.tabs.link
         - content.code.copy
@@ -58,5 +55,12 @@ theme:
 nav:
   - "Home": "index.md"
   - "Macros": 
-    - "material/index.md"
-    - "material.admonition": "material/admonition.md"
+    - "Core Components": "material/core.md"
+    - "Base Components": "material/base.md"
+  - "OS Templates":
+    - "AlmaLinux": "os/almalinux/almalinux.md"
+    - "CentOS": "os/centos/centos.md"
+    - "Debian": "os/debian/debian.md"
+    - "Oracle Linux": "os/oracle/oracle.md"
+    - "Ubuntu": "os/ubuntu/ubuntu.md"
+    - "Windows": "os/windows/windows.md"
